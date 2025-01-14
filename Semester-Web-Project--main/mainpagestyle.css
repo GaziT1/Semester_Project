@@ -29,7 +29,7 @@ body
 	margin-right:-25px;
 	margin-top:-410px;
 }
-#btnproduct1
+#btnproduct1, p
 {
 	background-color: white;
 	border: 0px;
@@ -53,10 +53,14 @@ body
 	margin-left:10%;
 	float:initial;
 }
-#btnproduct1text
+#btnproduct2text
+{
+	margin-left: 70px;
+}
+#btnproduct1text, #btnproduct2text, #btnproduct3text, #btnproduct4text, #btnproduct5text, #btnproduct6text, #btnproduct7text, #btnproduct8text, #btnproduct9text
 {
 	background-color: transparent;
-	color:rgba(0, 191, 255, 0.408) ;
+	color: #9d703e;
 	text-decoration: none;
 	border:0px;
 	font-family: Trebuchet MS, sans-serif;
@@ -70,7 +74,7 @@ body
 {
 	background-color: transparent;
 	text-decoration: none;
-	color:rgba(0, 191, 255, 0.408);
+	color: #9d703e;
 	border:0px;
 	font-family: Trebuchet MS, sans-serif;
 	height: 12%;
