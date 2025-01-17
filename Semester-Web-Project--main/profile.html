@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="webicon.png">
+        <link rel="stylesheet" type="text/css" href="profilestyles.css" media="screen">
+        <script src="profilefunction.js"></script>
+        <title>User Profile | HTML Project</title>
+    </head>
+    <body>
+        <div id="heading"></div>
+		<a href= "mainpage.html"  ><img id="homebutton" src="homebuttonicon.png"></a>
+		<a href= "profile.html" ><img id="profilebutton" src="profileicon.png"></a>
+		<a href= "cart.html" ><img id="cartbutton" src="carticon.png"></a>
+		</div>
+        <div id="profilebox">
+            <h1>User Profile</h1>
+            <div id="user-info">
+                <p>Name:</p><input type="text" id="name" name="name" placeholder="Name">
+                <p>Email: </p><input type="email" id="email" name="email" placeholder="Email">
+                <p>Joined:</p><input type="date" id="joined" name="joined" placeholder="Joined"><br><br><br><br>
+                <h2>Address:</h2><br>
+                <input type="text" id="address" name="address" placeholder="Enter your Street address">
+                <input type="text" id="specificaddress" name="specificaddress" placeholder="Apt, Suite, Unit, Building(optional)">
+                <h2>City:</h2><br>
+                <input type="text" id="city" name="city" placeholder="City">
+                <h2>State:</h2><br>
+                <input type="text" id="state" name="state" placeholder="State">
+                <h2>Zip Code:</h2><br>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code">
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <a id="logout" href="login.html">Log Out</a><a id="edit" href="profile.html">Edit Profile</a><a id="save" href="profile.html">Save Profile</a>
+            </div>
+        </div>
+    </body>
+</html>

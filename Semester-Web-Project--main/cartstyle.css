@@ -1,0 +1,84 @@
+body
+{
+	background-color:floralwhite;
+}
+#mainpageimg
+{
+	margin-top: -277px;
+	width: 100%;
+	height: 100%;
+}
+#homebutton
+{
+	float: left;
+	margin-top: -410px;
+	width: 150px;
+
+}
+#cartbutton
+{
+	float: right;
+	width: 150px;
+	margin-right:70px;
+	margin-top:-410px;
+}
+#profileimg
+{
+	float: right;
+	width: 150px;
+	margin-right:-25px;
+	margin-top:-410px;
+}
+#heading
+{
+	background-repeat: no-repeat;
+	background-image:url("toppart.png");
+	background-size: 100%;
+	width: 100%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card
+{
+	width: 100%;
+	height:300px;
+	border-radius: 10px;
+	border : 5px solid black;
+	font-family: Trebuchet MS, sans-serif;
+}
+img
+{
+	width: 100px;
+	height: 100px;
+}
+button
+{
+	border-radius: 10px;
+	color:#9d703e ;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	border: 2px solid #9d703e;
+	background-color: black;
+	font-size:20px;
+	width:10%;
+	transition-duration: .5s;
+}
+button:hover
+{
+	border-radius: 10px;
+	color:#9d703e ;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	border: 2px solid #9d703e;
+	background-color: black;
+	font-size:20px;
+	width:10%;
+	box-shadow: 0px 7px 10px,0 7px 50px #6e6b6b;
+	transition-duration: .5s;
+}
+p
+{
+	font-family: Trebuchet MS, sans-serif;
+	font-size:20px;
+}
