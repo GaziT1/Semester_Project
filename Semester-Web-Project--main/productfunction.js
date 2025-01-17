@@ -7,8 +7,8 @@ function EventListener() {
 function addProduct() {
     var productname = document.getElementById("productname").textContent;
     var productprice = document.getElementById("h2price").textContent;
-    var productquantity = document.querySelector("select[name='Quantity']").value;
-    var productsize = document.querySelector("select[name='size']").value;
+    var productquantity = document.getElementById("select[name='Quantity']").value;
+    var productsize = document.getElementById("select[name='size']").value;
     var productimage = document.getElementById("product1").src;
     var product = [productname, productprice, productquantity, productsize, productimage];
     var cart = JSON.parse(localStorage.getItem("cart")) || [];
