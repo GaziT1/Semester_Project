@@ -13,7 +13,7 @@ function EventListener()
             var createitem = document.createElement("div");
             createitem.innerHTML = `
             <div class="card">
-                <img src="${item[4]}" alt="${item[0]}">
+                <img src="${item[4]}"}">               
                 <h1>${item[0]}</h1>
                 <h2>${item[1]}</h2>
                 <p>Quantity: ${item[2]}</p>
